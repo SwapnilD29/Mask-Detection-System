@@ -1,0 +1,80 @@
+.forgot-dark {
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    
+  }
+  
+  .forgot-dark form {
+    max-width: 320px;
+    width: 90%;
+    background-color: #fdfeff;
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(12, 1, 1);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+  }
+  
+
+  .forgot-dark form .form-control {
+    background:none;
+    border-radius: 3px;
+    box-shadow: none;
+    color: inherit;
+    box-sizing:border-box;
+    display: block;
+  }
+
+  .forgot-dark form .form-control:hover{
+    border-style: solid ;
+    border-color: #6a82fb;
+    border-width: 2px;
+
+  }
+  .heading{
+      margin-bottom: 25px;
+      color: #161616ea ;
+
+  }
+
+  .forgot-dark form .btn-primary {
+    background: #105cbe;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: none;
+  }
+  
+  .forgot-dark form .btn-primary:hover, .forgot-dark form .btn-primary:active {
+    background: #222fe0e5;
+    outline: none;
+    color: #f1f3f4;
+  }
+  
+  .forgot-dark form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  
+  .forgot-dark form .forgot:hover, .forgot-dark form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+  }
+  
+  .forgot-dark form .btn-primary:active {
+    transform: translateY(1px);
+  }
